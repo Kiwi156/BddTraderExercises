@@ -5,7 +5,6 @@ import org.hamcrest.Matchers;
 import org.junit.Test;
 
 public class WhenGettingCompanyDetails {
-
     @Test
     public void shouldReturnNameAndSector(){
         RestAssured.get("https://bddtrader.herokuapp.com/api/stock/aapl/company")
